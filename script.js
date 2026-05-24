@@ -11,12 +11,10 @@ let index = 0;
 function updateRollingText() {
   index = (index + 1) % words.length;
 
-  const wordOne = document.getElementById("rolling-word");
-  const wordTwo = document.getElementById("rolling-word-2");
+  const word = document.getElementById("rolling-word");
 
-  if (wordOne && wordTwo) {
-    wordOne.textContent = words[index];
-    wordTwo.textContent = words[index];
+  if (word) {
+    word.textContent = words[index];
   }
 }
 
