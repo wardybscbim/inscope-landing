@@ -75,15 +75,16 @@ body {
 /* schematic vertical guide */
 
 .tri-factor::before {
-    content: "+──────";
+    content: "+ ──";
     position: absolute;
-    left: 70px;
-    top: 110px;
+    left: 78px;
+    top: 118px;
 
     color: #7E9077;
     font-family: monospace;
-    font-size: 28px;
-    opacity: 0.65;
+    font-size: 34px;
+    letter-spacing: -2px;
+    opacity: 0.75;
 }
 
 .tri-factor h2 {
