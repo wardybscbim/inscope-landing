@@ -1,4 +1,11 @@
-const words = ["goals", "team", "project", "compliance", "progress"];
+const words = [
+  "goals",
+  "team",
+  "project",
+  "compliance",
+  "progress",
+  "what matters"
+];
 
 let index = 0;
 
@@ -11,4 +18,4 @@ function updateRollingText() {
   word.textContent = words[index];
 }
 
-setInterval(updateRollingText, 2000);
+setInterval(updateRollingText, 3500);
