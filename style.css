@@ -104,8 +104,8 @@ body {
 }
 
 #rolling-word {
-  font-weight: 700;
+  font-weight: 400;
   display: inline-block;
-  min-width: 190px;
+  min-width: 220px;
   text-align: center;
 }
