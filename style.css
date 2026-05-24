@@ -5,6 +5,13 @@ body {
     color: #111;
 }
 
+.masthead-image {
+    height: 180px;
+    background-image: url("assets/masthead.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .hero {
     text-align: center;
     padding: 100px 20px;
