@@ -69,6 +69,42 @@ body {
 .tri-factor {
     padding: 120px 40px;
     background: #DCEED1;
+    position: relative;
+}
+
+/* schematic vertical guide */
+
+.tri-factor::before {
+    content: "";
+    position: absolute;
+    left: 90px;
+    top: 140px;
+    bottom: 140px;
+    width: 2px;
+
+    background-image: repeating-linear-gradient(
+        to bottom,
+        #7E9077 0px,
+        #7E9077 8px,
+        transparent 8px,
+        transparent 18px
+    );
+
+    opacity: 0.45;
+}
+
+.tri-factor::after {
+    content:
+        "+\A\A\A+\A\A\A+\A\A\A+";
+    white-space: pre;
+    position: absolute;
+    left: 82px;
+    top: 110px;
+    color: #7E9077;
+    font-size: 26px;
+    line-height: 88px;
+    font-family: monospace;
+    opacity: 0.75;
 }
 
 .tri-factor h2 {
