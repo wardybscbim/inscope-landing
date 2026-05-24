@@ -51,10 +51,19 @@ body {
     display: inline-block;
     margin: 10px;
     padding: 14px 28px;
-    background: #E5FCD9;
     color: #111;
     text-decoration: none;
     border-radius: 8px;
+}
+
+/* Demo = Pink */
+.cta-buttons a:first-child {
+    background: #E7C1E8;
+}
+
+/* Call = Blue */
+.cta-buttons a:last-child {
+    background: #BFDDF3;
 }
 
 .tri-factor {
