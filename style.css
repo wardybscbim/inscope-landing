@@ -198,3 +198,39 @@ body {
 .icc-quote {
     font-style: italic;
 }
+
+.gs-process {
+    max-width: 1200px;
+    margin: 0 auto 70px;
+}
+
+.gs-process-panel {
+    background: #f7f7f7;
+    border-radius: 22px;
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.process-item {
+    flex: 1;
+    text-align: center;
+}
+
+.process-item h3 {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+.process-item p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+.process-arrow {
+    font-size: 42px;
+    color: #999;
+}
