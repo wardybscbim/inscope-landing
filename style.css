@@ -34,14 +34,14 @@ body {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 60px 20px 70px;
     background: white;
 }
 
 .hero-content {
     max-width: 980px;
     margin: auto;
-    padding: 72px 70px;
+    padding: 58px 70px 60px;
     border: 1px solid rgba(0,0,0,0.08);
     border-radius: 28px;
     background: #fff;
@@ -68,16 +68,17 @@ body {
     font-size: 22px;
     color: rgba(0,0,0,0.28);
 }
+
 .topline {
     font-size: 14px;
     color: #777;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 .hero h1 {
     font-size: 52px;
     max-width: 900px;
-    margin: 0 auto 30px;
+    margin: 0 auto 38px;
     line-height: 1.1;
 }
 
@@ -88,8 +89,13 @@ body {
 }
 
 .sub {
-    font-size: 32px;
-    margin-bottom: 35px;
+    font-size: 34px;
+    margin: 0 0 30px;
+}
+
+#rolling-line {
+    font-weight: 400;
+    text-align: center;
 }
 
 .info-worksite,
@@ -101,7 +107,12 @@ body {
 }
 
 .info-worksite {
-    margin-top: 2px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.readiness {
+    margin-bottom: 8px;
 }
 
 .tm {
@@ -113,9 +124,8 @@ body {
 }
 
 .cta-buttons {
-    margin-top: 40px;
+    margin-top: 36px;
 }
-
 .cta-buttons a {
     display: inline-block;
     margin: 10px;
@@ -184,11 +194,6 @@ body {
 
 .card ul {
     padding-left: 18px;
-}
-
-.sub {
-  font-size: 34px;
-  margin: 35px 0 35px;
 }
 
 #rolling-line {
