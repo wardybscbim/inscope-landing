@@ -34,14 +34,14 @@ body {
 
 .hero {
     text-align: center;
-    padding: 60px 20px 70px;
+    padding: 85px 20px 75px;
     background: white;
 }
 
 .hero-content {
     max-width: 980px;
     margin: auto;
-    padding: 58px 70px 60px;
+   padding: 64px 70px 66px;
     border: 1px solid rgba(0,0,0,0.08);
     border-radius: 28px;
     background: #fff;
