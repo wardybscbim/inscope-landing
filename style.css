@@ -39,9 +39,9 @@ body {
 }
 
 .hero-content {
-    max-width: 980px;
+    max-width: 860px;
     margin: auto;
-   padding: 64px 70px 66px;
+   padding: 70px 72px 72px;
     border: 1px solid rgba(0,0,0,0.08);
     border-radius: 28px;
     background: #fff;
@@ -93,10 +93,6 @@ body {
     font-weight: 500;
     margin: 28px 0 14px;
     color: #111;
-}
-
-#rolling-line {
-    text-align: center;
 }
 
 .readiness,
