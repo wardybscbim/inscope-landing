@@ -41,13 +41,33 @@ body {
 .hero-content {
     max-width: 980px;
     margin: auto;
-    padding: 70px 60px;
-    border: 1px solid rgba(0,0,0,0.06);
-    border-radius: 32px;
-    background: rgba(255,255,255,0.45);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.03);
+    padding: 72px 70px;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 28px;
+    background: #fff;
+    box-shadow: 0 18px 50px rgba(0,0,0,0.045);
+    position: relative;
 }
 
+.hero-content::before {
+    content: "+";
+    position: absolute;
+    top: 22px;
+    left: 28px;
+    font-family: monospace;
+    font-size: 22px;
+    color: rgba(0,0,0,0.28);
+}
+
+.hero-content::after {
+    content: "+";
+    position: absolute;
+    bottom: 22px;
+    right: 28px;
+    font-family: monospace;
+    font-size: 22px;
+    color: rgba(0,0,0,0.28);
+}
 .topline {
     font-size: 14px;
     color: #777;
