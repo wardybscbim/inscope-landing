@@ -129,19 +129,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .cta-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 12px;
-        flex-wrap: nowrap;
-    }
 
-    .cta-buttons a {
-        margin: 0;
-    }
-}
-
-@media (max-width: 768px) {
     .hero {
         padding: 55px 20px 65px;
     }
@@ -152,17 +140,17 @@ body {
     }
 
     .hero h1 {
-        font-size: 40px;
-        line-height: 1.08;
-        max-width: 340px;
-        margin: 0 auto 34px;
+        font-size: 28px;
+        line-height: 1.12;
+        max-width: 520px;
+        margin: 0 auto 30px;
     }
 
     .sub {
-        font-size: 20px;
-        line-height: 1.55;
-        max-width: 340px;
-        margin: 0 auto 34px;
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 420px;
+        margin: 0 auto 30px;
     }
 
     .cta-buttons {
