@@ -420,7 +420,7 @@ body {
     overflow-x: auto;
     padding: 20px 40px;
     scroll-snap-type: x mandatory;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     scrollbar-width: none;
 }
@@ -432,45 +432,18 @@ body {
 .thinking-card {
     min-width: 380px;
     height: 560px;
-    background: #f3f3f3;
     border-radius: 34px;
-    padding: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    scroll-snap-align: start;
     overflow: hidden;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
 }
 
-.card-content {
-    z-index: 2;
-}
-
-.card-tag {
-    font-size: 13px;
-    color: #666;
-    display: block;
-    margin-bottom: 18px;
-}
-
-.thinking-card h3 {
-    font-size: 44px;
-    margin-bottom: 12px;
-}
-
-.thinking-card p {
-    font-size: 20px;
-    color: #555;
-    max-width: 420px;
-}
-
-.card-image img {
+.thinking-card img {
     width: 100%;
-    height: 260px;
-    border-radius: 22px;
+    height: 100%;
     object-fit: cover;
+    display: block;
 }
-
 .final-cta {
     background: #E5FCD9;
     color: #111;
