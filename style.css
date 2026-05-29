@@ -414,38 +414,66 @@ body {
     margin: 0 auto 60px;
 }
 
-.gallery-grid {
+.gallery-carousel {
     display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
-    margin: auto;
+    gap: 28px;
+    overflow-x: auto;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
 }
 
-.gallery-card {
-    width: 500px;
-    text-align: left;
+.thinking-card {
+    min-width: 620px;
+    height: 420px;
+    background: #f3f3f3;
+    border-radius: 34px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-snap-align: start;
+    overflow: hidden;
 }
 
-.gallery-card h3 {
-    margin-bottom: 10px;
+.card-content {
+    z-index: 2;
 }
 
-.gallery-line {
+.card-tag {
+    font-size: 13px;
     color: #666;
+    display: block;
     margin-bottom: 18px;
 }
 
-.gallery-placeholder {
-    height: 260px;
-    background: #f4f4f4;
-    border-radius: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #888;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+.thinking-card h3 {
+    font-size: 44px;
+    margin-bottom: 12px;
+}
+
+.thinking-card p {
+    font-size: 20px;
+    color: #555;
+    max-width: 420px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 22px;
+    object-fit: cover;
+}
+
+.gallery-carousel {
+    scrollbar-width: none;
+}
+
+.gallery-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-carousel {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .final-cta {
