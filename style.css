@@ -553,15 +553,16 @@ body {
     min-width: 320px !important;
     max-width: 320px !important;
     height: 430px !important;
-    border-radius: 26px;
+    border-radius: 34px;
     overflow: hidden;
     background: transparent;
   }
 
-  .gallery .thinking-card img {
+ .gallery .thinking-card img {
     width: 100% !important;
     height: 100% !important;
-    object-fit: contain !important;
+    object-fit: cover !important;
+    border-radius: inherit;
     display: block;
-  }
+}
 }
