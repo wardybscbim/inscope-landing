@@ -211,6 +211,25 @@ body {
     overflow: hidden;
 }
 
+.tri-factor::before,
+.tri-factor::after {
+    content: "+";
+    position: absolute;
+    color: rgba(140,110,255,0.14);
+    font-size: 34px;
+    pointer-events: none;
+}
+
+.tri-factor::before {
+    top: 18%;
+    left: 16%;
+}
+
+.tri-factor::after {
+    bottom: 28%;
+    right: 18%;
+}
+
 .tri-factor h2 {
     text-align: center;
     font-size: 42px;
