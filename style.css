@@ -215,19 +215,21 @@ body {
 .tri-factor::after {
     content: "+";
     position: absolute;
-    color: rgba(140,110,255,0.14);
-    font-size: 34px;
+    color: rgba(170,140,255,0.28);
+    font-size: 54px;
+    font-weight: 300;
     pointer-events: none;
+    z-index: 1;
 }
 
 .tri-factor::before {
-    top: 18%;
-    left: 16%;
+    top: 16%;
+    left: 10%;
 }
 
 .tri-factor::after {
-    bottom: 28%;
-    right: 18%;
+    bottom: 22%;
+    right: 12%;
 }
 
 .tri-factor h2 {
