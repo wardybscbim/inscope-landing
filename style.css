@@ -342,18 +342,19 @@ body {
 
 .gs-step-card {
     display: flex;
-    align-items: flex-start;
-    gap: 26px;
+    align-items: center;
+    gap: 22px;
     text-align: left;
-    padding: 30px 34px;
+    padding: 28px 32px;
     border: 1px solid rgba(0,0,0,0.08);
     border-radius: 18px;
     background: #fff;
+    box-shadow: none;
 }
 
 .step-number {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: #7151a8;
     color: white;
@@ -361,7 +362,9 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    flex: 0 0 42px;
+    font-size: 18px;
+    flex: 0 0 44px;
+    margin-top: 2px;
 }
 
 .gs-step-card h3 {
