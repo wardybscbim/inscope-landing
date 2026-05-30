@@ -324,14 +324,29 @@ body {
     margin-bottom: 60px;
 }
 
-.gs-flow {
+.gs-layout {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-wrap: nowrap;
-    max-width: 1400px;
-    margin: 0 auto 80px;
+    gap: 70px;
+    max-width: 1200px;
+    margin: 70px auto 0;
+    flex-wrap: wrap;
+}
+
+.gs-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gs-mobile img {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 26px;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.12);
 }
 
 .gs-step {
