@@ -359,10 +359,10 @@ body {
 }
 
 .process-arrow {
-    font-size: 34px;
-    color: rgba(0,0,0,0.32);
+    font-size: 44px;
+    color: rgba(0,0,0,0.28);
     line-height: 1;
-    margin: 2px 0;
+    margin: 0;
 }
 
 .gs-mobile {
