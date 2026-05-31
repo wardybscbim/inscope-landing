@@ -489,6 +489,9 @@ body {
 }
 
 .footer {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+
     background: #111;
     color: rgba(255,255,255,0.78);
     padding: 40px 60px;
