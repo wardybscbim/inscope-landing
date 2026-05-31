@@ -466,6 +466,10 @@ body {
     display: block;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .final-cta {
     width: 100vw;
     margin-left: calc(50% - 50vw);
@@ -522,6 +526,7 @@ body {
     display: flex;
     gap: 24px;
     justify-content: center;
+    flex: 1;
 }
 
 .footer-links a {
