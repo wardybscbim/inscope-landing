@@ -394,18 +394,24 @@ body {
 }
 
 .gallery {
-    padding: 40px 20px 100px;
+    padding: 30px 20px 90px;
     background: #ffffff;
-    text-align: center;
+    text-align: left;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.gallery-header {
+    padding: 0 40px 20px;
 }
 
 .gallery h2 {
     font-size: 42px;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .gallery-intro {
-    margin: 4px auto 36px;
+    margin: 0;
     font-size: 20px;
     font-weight: 500;
     color: #333;
