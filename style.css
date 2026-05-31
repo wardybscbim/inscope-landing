@@ -417,11 +417,21 @@ body {
     font-weight: 600;
     line-height: 1.35;
     color: #111;
-    padding-top: 85px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 560px;
+    padding: 0 12px 0 0;
 }
 
 .project-thinking-copy p {
-    margin: 0 0 38px;
+    margin: 0 0 70px;
+}
+
+.project-thinking-copy p:last-child {
+    margin-bottom: 0;
 }
 
 .gallery-carousel {
