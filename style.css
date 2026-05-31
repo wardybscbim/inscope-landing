@@ -412,12 +412,13 @@ body {
 }
 
 .project-thinking-copy {
-    flex: 0 0 320px;
+    flex: 0 0 360px;
     font-size: 24px;
     font-weight: 600;
-    line-height: 1.45;
+    line-height: 1.65;
     color: #111;
-    padding-top: 36px;
+    padding-top: 22px;
+    padding-right: 28px;
 }
 
 .project-thinking-copy p {
