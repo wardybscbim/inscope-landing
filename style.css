@@ -327,7 +327,7 @@ body {
 .gs-layout {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 80px;
     max-width: 1150px;
     margin: 0 auto;
@@ -338,6 +338,8 @@ body {
     border-radius: 26px;
     padding: 42px 46px;
     width: 440px;
+    height: 100%;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     gap: 34px;
@@ -383,12 +385,29 @@ body {
     font-size: 17px;
 }
 
-.gs-mobile img {
-    width: 320px;
-    max-width: 100%;
-    height: auto;
-    display: block;
+.gs-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.phone-frame {
+    width: 330px;
+    background: #2b2b2f;
+    border-radius: 42px;
+    padding: 10px;
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.12),
+        0 3px 8px rgba(0,0,0,0.08);
+    border: 2px solid #3a3a40;
+}
+
+.phone-frame img {
+    width: 100%;
+    display: block;
+    border-radius: 34px;
+}
+
 .gallery {
     padding: 100px 20px;
    background: #ffffff;
